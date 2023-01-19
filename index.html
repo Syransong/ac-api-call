@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 3: Animal Crossing API</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body onload="firstLoad()">
+        <div id="spinner"></div>
+        <h1>Animal Crossing Villagers</h1>
+        <ul class="filter-list">
+            <li onclick="showAll()" class="show-all">Show All</li>
+            <li><button>Alligator</button></li>
+            <li><button>Anteater</button></li>
+            <li><button>Bear</button></li>
+            <li><button>Bird</button></li>
+            <li><button>Bull</button></li>
+            <li><button>Cat</button></li>
+            <li><button>Chicken</button></li>
+            <li><button>Cow</button></li>
+            <li><button>Cub</button></li>
+            <li><button>Deer</button></li>
+            <li><button>Dog</button></li>
+            <li><button>Duck</button></li>
+            <li><button>Eagle</button></li>
+            <li><button>Elephant</button></li>
+            <li><button>Frog</button></li>
+            <li><button>Goat</button></li>
+            <li><button>Gorilla</button></li>
+            <li><button>Hamster</button></li>
+            <li><button>Hippo</button></li>
+            <li><button>Horse</button></li>
+            <li><button>Kangaroo</button></li>
+            <li><button>Koala</button></li>
+            <li><button>Lion</button></li>
+            <li><button>Monkey</button></li>
+            <li><button>Mouse</button></li>
+            <li><button>Octopus</button></li>
+            <li><button>Ostrich</button></li>
+            <li><button>Penguin</button></li>
+            <li><button>Pig</button></li>
+            <li><button>Rabbit</button></li>
+            <li><button>Rhino</button></li>
+            <li><button>Sheep</button></li>
+            <li><button>Squirrel</button></li>
+            <li><button>Tiger</button></li>
+            <li><button>Wolf</button></li>
+        </ul>
+        <div id="villagerContainer" class="villager-container"></div>
+        <div id="loadMoreBtn" class="btn" onclick="addMore()" style="display: none;">
+            Load More
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="config.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
