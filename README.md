@@ -12,5 +12,5 @@ This is a simple project that makes GET requests to the [Nookpedia API](https://
 [Nookpedia API](https://api.nookipedia.com/)
 
 ### Notes
-The API key is referenced via a config.js file. To setup the project on your device, you can request an API key at [Nookpedia](https://api.nookipedia.com/).
+If you're interested in creating your own project using this API, you can request an API key at [Nookpedia](https://api.nookipedia.com/).
 

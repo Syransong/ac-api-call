@@ -2,7 +2,7 @@
 const numVillagersShown = 6;
 let numVillagersIncrement = 0;
 const totalVillagers = 488;
-const acKey = config.AC_API_KEY;
+const acKey = '9162d778-d8bc-4629-b3a6-f54f33165f66';
 let searchQuery = '';
 
 // The firstLoad() function will run when the page first loads and will call loadList()
